@@ -4,7 +4,7 @@ import dev.greencashew.linkshortener.CreateLinkDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping
+@RequestMapping("/links")
 @RestController
 
 public class LinkManageController {
